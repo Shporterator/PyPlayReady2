@@ -96,3 +96,25 @@ class XmlUtils:
         except Exception as e:
             print(f"Error creating instance from XML node: {e}")
             return None
+
+
+# from io import StringIO
+
+# xml_data = """
+# <root>
+#     <item attName="ExampleName" attValue="ExampleValue">
+#         <child attSubName="SubExample"/>
+#     </item>
+# </root>
+# """
+
+# # Parse XML from a string
+# stream = StringIO(xml_data)
+# document = XmlUtils.parse_xml(stream)
+
+# # Access elements and attributes
+# item = XmlUtils.first_element(document, "item")
+# print(XmlUtils.get_attr_value(item, "attName"))  # Should print "ExampleName"
+
+# # Get the value of a nested element by path
+# print(XmlUtils.get_value_by_path(document, "item.child"))  # Access text in <child> if present
