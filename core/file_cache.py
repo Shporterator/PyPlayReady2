@@ -1,5 +1,4 @@
 import os
-from agsecres.tool import Utils, Vars
 
 class FileCache:
     DEFAULT_CACHE_DIR = "content"
