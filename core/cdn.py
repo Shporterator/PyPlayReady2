@@ -1,6 +1,6 @@
 import time
 from modules.crpto import Crypto
-from core.ecc import ecc
+from modules.ecc import ECC
 from modules.vars import Vars
 from modules.utils import Utils
 from modules.web import Web
