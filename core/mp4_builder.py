@@ -1,5 +1,10 @@
 from modules.utils import Utils
 
+class MP4File:
+    def __init__(self):
+        # Initialize any required properties here
+        pass
+        
 class MP4Builder:
     class StreamsDesc:
         AUDIO_STREAM_START = "audio="
