@@ -1,3 +1,5 @@
+import sys
+
 class ERROR:
     @staticmethod
     def log(s: str):
